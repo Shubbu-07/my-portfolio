@@ -1,0 +1,18 @@
+.project-div{
+    margin-top: 12vh;
+}
+
+.project-heading h1{
+    font-weight: 700;
+}
+
+.project-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-button{
+    border-radius: 0%;
+    color: #2978b5;
+    border: 2px solid;
+}
