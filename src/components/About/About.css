@@ -1,30 +1,12 @@
-.home-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10vh;
+.profile-photo {
+  border-radius: 50px;
 }
 
-.home-content h1 {
-  font-size: 80px;
-  font-weight: 700;
-}
-
-#name {
-  color: #2978b5;
-}
-
-.home-content h4 {
-  font-size: 40px;
-  font-weight: 700;
-}
-
-.resume-btn{
-  border-radius: 0%;
-  color: #2978b5;
-  border: 2px solid;
-}
-
-.resume-btn :hover{
-  border: #2978b5 !important;
+.profile-photo img {
+  border-radius: 50px;
+  overflow: hidden;
+  width: 50vh;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+  -20px -20px 60px #ffffff;
 }

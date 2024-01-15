@@ -16,3 +16,11 @@
     color: #2978b5;
     border: 2px solid;
 }
+
+.pjt-card{
+    border-radius: 30px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 16px 16px 32px #a8a8a8,
+    -16px -16px 32px #ffffff;
+}
