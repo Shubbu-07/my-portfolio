@@ -1,11 +1,10 @@
 import React from "react";
 import './Home.css'
-import githublogo from '../../Assets/github.svg'
-import linkedinlogo from '../../Assets/linkedin.svg'
+
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container my-5">
       <div className="home-content">
         <ul>
           <li><h1>Hi! I'm </h1></li>
@@ -17,11 +16,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="d-flex align-items-center justify-content-center my-4">
-        <button type="button" className="mx-3 btn btn-light resume-btn">Resume</button>
-        <a href="https://github.com/Shubbu-07" className="mx-3"><img src={githublogo} alt="Github logo" /></a>
-        <a href="https://linkedin.com/in/shubham-mergu" className="mx-3"><img src={linkedinlogo} alt="Linkedin logo" /></a>
-      </div>
+      
     </div>
   );
 }
